@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.RegisterFragment">
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:fontFamily="@font/sf_ui_display_regular"
+        android:gravity="center"
+        android:text="@string/REGISTRATION"
+        android:textColor="@color/braun"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:elevation="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="18dp"
+        android:text="@string/E_MAIL"
+        android:textSize="15sp"
+        android:textColor="@color/braun"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_login"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/shape_oval"
+        android:fontFamily="@font/sf_ui_display_regular"
+        android:hint="@string/EXAMPLE_MAIL"
+        android:inputType="text|textEmailAddress"
+        android:textColorHint="@color/light_braun"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="18dp"
+        android:text="@string/PASSWORD"
+        android:textSize="15sp"
+        android:textColor="@color/braun"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/shape_oval"
+        android:fontFamily="@font/sf_ui_display_regular"
+        android:hint="@string/PASSWORD_STARS"
+        android:inputType="text|textPassword"
+        android:textColorHint="@color/light_braun"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="18dp"
+        android:text="@string/REPEAT_PASSWORD"
+        android:textSize="15sp"
+        android:textColor="@color/braun"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_repeat_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/shape_oval"
+        android:fontFamily="@font/sf_ui_display_regular"
+        android:hint="@string/PASSWORD_STARS"
+        android:inputType="text|textPassword"
+        android:textColorHint="@color/light_braun"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/shape_oval"
+        android:backgroundTint="#CD000000"
+        android:text="@string/REGISTRATION"
+        android:textAllCaps="false"
+        android:textColor="@color/beige"
+        android:textSize="18sp" />
+
+</LinearLayout>

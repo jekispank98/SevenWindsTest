@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SevenWindsTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="REGISTRATION">Registration</string>
+    <string name="EXAMPLE_MAIL" translatable="false">example@example.ru</string>
+    <string name="E_MAIL" translatable="false">e-mail</string>
+    <string name="PASSWORD">Password</string>
+    <string name="REPEAT_PASSWORD">Repeat password</string>
+    <string name="PASSWORD_STARS" translatable="false">******</string>
+    <string name="LOGIN">Login</string>
+    <string name="NEAREST_COFFESHOPS">Nearest Coffeshops</string>
+    <string name="ENTER_VALID_DATA">Enter valid data!</string>
+    <string name="PASSWORDS_ARE_NOT_MATCH">The passwords do not match!</string>
+    <string name="SOMETHING_WRONG">Something wrong, try again!</string>
+    <string name="ON_MAP">On map</string>
+    <string name="DISTANCE_TO">%s km from you</string>
+    <string name="PRICE">%s rub</string>
+    <string name="TO_PAY">Navigate to pay</string>
+    <string name="ORDER_TIME_AND_THANK_YOU" translatable="false">Время ожидания заказа\n15 минут!\nСпасибо, что выбрали нас!</string>
+    <string name="PAY">Pay</string>
+    <string name="MAP">Map</string>
+    <string name="MENU">Menu</string>
+    <string name="YOUR_ORDER">Your order</string>
+</resources>

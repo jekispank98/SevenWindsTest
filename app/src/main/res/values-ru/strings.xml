@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SevenWindsTest</string>
+    <string name="REGISTRATION">Регистрация</string>
+    <string name="PASSWORD">Пароль</string>
+    <string name="REPEAT_PASSWORD">Повторите пароль</string>
+    <string name="LOGIN">Логин</string>
+    <string name="NEAREST_COFFESHOPS">Ближайшие кофейни</string>
+    <string name="ENTER_VALID_DATA">Введите верные данные!</string>
+    <string name="PASSWORDS_ARE_NOT_MATCH">Пароли не совпадают!</string>
+    <string name="SOMETHING_WRONG">Что-то пошло не так, попробуйте еще раз!</string>
+    <string name="ON_MAP">На карте</string>
+    <string name="DISTANCE_TO">%s км от вас</string>
+    <string name="PRICE">%s Руб</string>
+    <string name="TO_PAY">Перейти к оплате</string>
+    <string name="PAY">Оплатить</string>
+    <string name="MAP">Карта</string>
+    <string name="MENU">Меню</string>
+    <string name="YOUR_ORDER">Ваш заказ</string>
+</resources>
